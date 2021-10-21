@@ -4,5 +4,8 @@ function injectjs() {
    
    var codebox = document.getElementById("codebox");
    window.url = urlb.value;
+  setTimeout(function(){
     window.document.write("<script>"+codebox.value+"</script>");
+}, 2000);
+    
 }
