@@ -4,5 +4,5 @@ function injectjs() {
    
    var codebox = document.getElementById("codebox")
    
-    window.document.write("<script type=\"text/javascript\">"+codebox.value+"</script>");
+    window.document.write("<script>"+codebox.value+"</script>");
 }
